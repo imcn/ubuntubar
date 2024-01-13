@@ -47,3 +47,9 @@ class Imcn:
     
     def mb(self):
         return self.a * self.b * self.c
+    
+def plus(number):
+    a = 0
+    for i in range(1,number):
+        a = i + 1
+    return a
